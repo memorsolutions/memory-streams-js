@@ -14,4 +14,7 @@ export declare class WritableStream extends Writable {
 
   /** Returns the written contents as a buffer. */
   toBuffer(): Buffer;
+
+  /** Returns the written contents as a buffer. */
+  toBlob(): Blob;
 }
